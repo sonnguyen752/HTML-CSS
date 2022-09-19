@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form_dang_ky" id="" action="/xu_ly_du_lieu" method="post">
+        <div>
+            <p>Tên: </p>
+            <input placeholder="nhap ten cua ban" name="ten" value="" type="text">
+        </div>
+        <div>
+            <p>Email: </p>
+            <input placeholder="nhap email cua ban" name="email" value="" type="email">
+        </div>
+        <div>
+            <p>mật khẩu: </p>
+            <input placeholder="nhap MK cua ban" name="matKhau" value="" type="password" >
+        </div>
+        <div>
+            <p>giới tính: </p>
+            <input  name="gioiTinh" value="Nam" type="radio"> Nam
+            <input  name="gioiTinh" value="Nu" type="radio">Nữ
+            <input  name="gioiTinh" value="kXD" type="radio"> KXD
+        </div>
+        <div>
+            <p>Sinh nhật: </p>
+            <input placeholder="nhap MK cua ban" name="sinh nhat" value="" type="date" >
+        </div>
+        <div>
+            <p>Sở thích: </p>
+            <input  name="soThich" value="Dabong" type="checkbox" > Đá bóng
+            <input  name="soThich" value="ngheNhac" type="checkbox" > Nghe nhạc
+        </div>
+        <div>
+            <p>Thành phố: </p>
+            <select name="thanhPho" id="">
+                <option value="HCM">Hồ chí minh</option>
+                <option value="HN">Hà nội</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="đăng ky">
+            <input type="reset" value="nhap lai">
+        </div>
+    </form>
+</body>
+</html>
