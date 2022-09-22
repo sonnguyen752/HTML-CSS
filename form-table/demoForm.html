@@ -21,10 +21,8 @@
             <input placeholder="nhap MK cua ban" name="matKhau" value="" type="password" >
         </div>
         <div>
-            <p>giới tính: </p>
-            <input  name="gioiTinh" value="Nam" type="radio"> Nam
-            <input  name="gioiTinh" value="Nu" type="radio">Nữ
-            <input  name="gioiTinh" value="kXD" type="radio"> KXD
+            <label for="male">Nam</label>: <input type="radio" id="male" name="sex" value="" /><br />
+            <label for="female">Nữ</label>: <input type="radio" id="female" name="sex" value="" />
         </div>
         <div>
             <p>Sinh nhật: </p>
@@ -46,6 +44,25 @@
             <input type="submit" value="đăng ky">
             <input type="reset" value="nhap lai">
         </div>
+      
+            Sở thích:<br/>
+            <label><input name="hobby" value="travel" type="checkbox"/> Du lịch</label> <br/>
+            <label><input name="hobby" value="sport" type="checkbox"/> Thể thao</label> <br/>
+            <label><input name="hobby" value="cooking" type="checkbox"/> Nấu ăn</label> <br/>
+            <select name="city">
+                <option value="HN">Hà Nội</option>
+                <option value="HP">Hải Phòng</option>
+                <option value="HU">Huế</option>
+                <option value="DN">Đà Nẵng</option>
+                <option value="SG">Sài Gòn</option>
+              </select>
+            <select name="city" multiple>
+                <option value="HN">Hà Nội</option>
+                <option value="HP">Hải Phòng</option>
+                <option value="HU">Huế</option>
+                <option value="DN">Đà Nẵng</option>
+                <option value="SG">Sài Gòn</option>
+              </select>
     </form>
 </body>
 </html>
